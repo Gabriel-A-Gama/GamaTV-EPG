@@ -91,7 +91,7 @@ def executar():
 
     print(f'\nArquivo gerado: {DESTINO}')
     print(f'Fontes utilizadas: {sucesso}/{len(FONTES)}')
-    print: print(f'Canais: {len(canais)} | Programas: {len(programas)}')
+    print(f'Canais: {len(canais)} | Programas: {len(programas)}')
     print(f'Tamanho: {DESTINO.stat().st_size / 1024 / 1024:.2f} MB')
     print('Observação: IDs diferentes para um mesmo canal foram preservados.')
 
